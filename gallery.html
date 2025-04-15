@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Gallery</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="images/applefavi.PNG" type="image">
+
+    <style>
+    body{ 
+        background-color: #100807;
+        padding: 0;
+        margin: 0;
+
+        -webkit-animation: fadein 2.5s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2.5s; /* Firefox < 16 */
+        -ms-animation: fadein 2.5s; /* Internet Explorer */
+         -o-animation: fadein 2.5s; /* Opera < 12.1 */
+            animation: fadein 2.5s;
+    }
+
+    @keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+    }
+
+    /* Firefox < 16 */
+    @-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+    }
+
+    /* Safari, Chrome and Opera > 12.1 */
+    @-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+    }
+
+    /* Internet Explorer */
+    @-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+    }
+
+    .column{
+     float: left;
+     width: 33.33%;
+    padding: 70px;
+    }
+    
+    #header1 {
+    height: 85vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    background-image: url("images/gallhead2.jpg"); /*Gallery Head Exists Here*/
+    background-repeat: no-repeat;
+    }
+
+    #container .column {
+    position: absolute;
+    top: 5px;
+    left: 20px;
+    transform: translate(-35%, -35%);
+    }
+
+    img {
+        padding: 5px;
+    }
+
+    a {
+    padding-left: 15px;
+    }
+
+    #container {
+        padding-top: 30px;
+        padding-bottom: 30px;;
+    }
+    </style>
+
+</head>
+
+<body>
+    <div id="header1">
+    </div>
+    
+<section style="padding-left: 5px;">
+<div id="section1">
+    <div id="container">
+            <a href="images/artworks/0.JPG"> <img src="images/artworks/0.JPG" style="width: 47vw; height: 110vh;"></a>
+            <a href="images/artworks/2.JPG"> <img src="images/artworks/2.JPG" style="width: 47vw; height: 110vh;"></a>
+    </div>
+    <div id="container">
+            <a href="images/artworks/1.JPG"> <img src="images/artworks/1.JPG" style="width: 95vw; height: 135vh;"></a>
+    </div>
+    <div id="container">
+            <a href="images/artworks/3.JPG"> <img src="images/artworks/3.JPG" style="width: 47vw; height: 70vh;"></a>
+            <a href="images/artworks/4.JPG"> <img src="images/artworks/4.JPG" style="width: 47vw; height: 70vh;"></a>
+    </div>
+        <div id="container">
+            <a href="images/artworks/5.JPG"> <img src="images/artworks/5.JPG" style="width: 95vw; height: 70vh;"></a>
+    </div>
+    <div id="container">
+            <a href="images/artworks/7.JPG"> <img src="images/artworks/7.JPG" style="width: 95vw; height: 130vh;"></a>
+    </div>
+    <div id="container">
+            <a href="images/artworks/8.JPG"> <img src="images/artworks/8.JPG" style="width: 95vw; height: 130vh;"></a>
+    </div>
+    <div id="container">
+            <a href="images/artworks/9.JPG"> <img src="images/artworks/9.JPG" style="width: 47vw; height: 70vh;"></a>
+            <a href="images/artworks/10.JPG"> <img src="images/artworks/10.JPG" style="width: 47vw; height: 70vh;"></a>
+    </div>
+    <div id="container">
+            <a href="images/artworks/12.JPG"> <img src="images/artworks/12.JPG" style="width: 95vw; height: 90vh;"></a>
+    </div>
+    <div id="container">
+            <a href="images/artworks/11.JPG"> <img src="images/artworks/11.JPG" style="width: 47vw; height: 110vh;"></a>
+            <a href="images/artworks/6.JPG"> <img src="images/artworks/6.JPG" style="width: 47vw; height: 110vh;"></a>
+    </div>
+    <div id="container">
+            <a href="images/artworks/13.JPG"> <img src="images/artworks/13.JPG" style="width: 95vw; height: 120vh;"></a>
+    </div>
+    <div id="container">
+            <a href="images/artworks/14.JPG"> <img src="images/artworks/14.JPG" style="width: 95vw; height: 120vh;"></a>
+    </div>
+    <div id="container">
+            <a href="images/artworks/15.JPG"> <img src="images/artworks/15.JPG" style="width: 95vw; height: 110vh;"></a>
+    </div>   
+</div>
+</section>
+
+<div class="column"> 
+</div>
+
+<div class="column"> 
+</div>
+
+<audio id="myAudio" src="../PortFWeb/music/Pokémon R_S_E - Sootopolis City Piano Cover 4.mp3" autoplay loop style="display: none;" controls></audio></audio>
+
+</body>
+</html>
